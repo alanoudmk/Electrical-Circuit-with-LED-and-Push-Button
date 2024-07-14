@@ -11,7 +11,7 @@ Hardware Components:
   - LED
   - Resistor ( 10K ohm)
 
-The circuit works as follows:
+The Circuit Works as Follows:
   - The resistor is used to keep the push button pin in a known state (HIGH) when the button is not pressed.
       - Without the pull-up resistor, the pin would be in a floating state, which could lead to _unpredictable behavior_.
   -  When the push button is pressed, it connects the pin to ground, pulling the voltage down to 0V (LOW).
@@ -36,7 +36,7 @@ Hardware Components:
   - Resistor ( 220 ohm)
   - Resistor ( 10K ohm)
 
-The circuit works as follows:
+The Circuit Works as Follows:
   - The 220 ohm resistor is used to limit the current flowing through the LED and prevent it from burning out.
       - The value of the resistor can be calculated using Ohm's law, as in the previous example.
   - The 10K ohm pull-up resistor is used to keep the push button pin in a known state (HIGH) when the button is not pressed.
@@ -53,4 +53,34 @@ The circuit works as follows:
 
 ***
 
+## 3.
+Hardware Components:
+  - Breadboard
+  - Arduino Uno
+  - Push-Button
+  - LED
+  - Resistor ( 220 ohm)
+  - Resistor ( 10K ohm)
 
+The Circuit Works as Follows:
+
+[CODE]()
+
+***
+
+
+## 4. Push button Debouncing:
+
+Hardware Components:
+  - Breadboard
+  - Arduino Uno
+  - Push-Button
+  - LED
+  - Resistor ( 220 ohm)
+  - Resistor ( 10K ohm)
+
+The Circuit Works as Follows:
+
+[CODE]()
+
+***
