@@ -68,7 +68,7 @@ The purpose of this overall circuit is to create a simple LED control system usi
 
 Debouncing is an essential technique used in circuits with mechanical switches, such as the push-button in this project, because of a phenomenon called "switch bounce."
 
-  <img src="https://github.com/user-attachments/assets/c3266e87-d7b1-4bce-9ead-d088bcd67b56" width="400" height="330">
+   <img src="https://github.com/user-attachments/assets/c3266e87-d7b1-4bce-9ead-d088bcd67b56" width="350" height="200">
 
 When a mechanical switch is pressed, the contacts inside the switch don't make a clean, immediate connection. Instead, the contacts tend to bounce back and forth for a brief period before settling into a stable state. This switch bounce can cause the microcontroller to detect multiple button presses from a single physical action, leading to unintended behavior in the system.
 
