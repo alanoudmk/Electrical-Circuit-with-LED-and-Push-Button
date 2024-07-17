@@ -20,7 +20,7 @@ The Circuit Works as Follows:
 
     <img src="https://github.com/user-attachments/assets/86ad8738-f0b4-4fbf-b435-6689f224a407" width="400" height="330">
 
-[CODE]()
+[CODE](https://github.com/alanoudmk/Electrical-Circuit-with-LED-and-Push-Button/blob/main/LED%20Control%20with%20Push%20Button.cpp)
 
 ***
 
@@ -49,27 +49,11 @@ The Circuit Works as Follows:
 
 
 
-[CODE]()
+[CODE](https://github.com/alanoudmk/Electrical-Circuit-with-LED-and-Push-Button/blob/main/Turn%20LED%20On%20and%20Off%20with%20Push-Button.cpp)
 
 ***
 
-## 3.
-Hardware Components:
-  - Breadboard
-  - Arduino Uno
-  - Push-Button
-  - LED
-  - Resistor ( 220 ohm)
-  - Resistor ( 10K ohm)
-
-The Circuit Works as Follows:
-
-[CODE]()
-
-***
-
-
-## 4. Push button Debouncing:
+## 3. Push button Debouncing:
 
 Hardware Components:
   - Breadboard
@@ -80,7 +64,17 @@ Hardware Components:
   - Resistor ( 10K ohm)
 
 The Circuit Works as Follows:
+The purpose of this overall circuit is to create a simple LED control system using an Arduino Uno, a push button, and supporting resistors. The main functionality is as follows:
 
-[CODE]()
+Debouncing is an essential technique used in circuits with mechanical switches, such as the push-button in this project, because of a phenomenon called "switch bounce."
+
+  <img src="https://github.com/user-attachments/assets/c3266e87-d7b1-4bce-9ead-d088bcd67b56" width="400" height="330">
+
+When a mechanical switch is pressed, the contacts inside the switch don't make a clean, immediate connection. Instead, the contacts tend to bounce back and forth for a brief period before settling into a stable state. This switch bounce can cause the microcontroller to detect multiple button presses from a single physical action, leading to unintended behavior in the system.
+
+  <img src="https://github.com/user-attachments/assets/2278e74a-416d-4fba-bf1a-f577eced89b0" width="400" height="330">
+
+
+[CODE](https://github.com/alanoudmk/Electrical-Circuit-with-LED-and-Push-Button/blob/main/Push%20button%20Debouncing.cpp)
 
 ***
